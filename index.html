@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elikatla prudhvi - Portfolio</title>
+    
+    <!-- Default theme loaded from localStorage -->
+    <link id="themeStylesheet" rel="stylesheet" href="styles2.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="mainly first-mainly">
+        <header>
+            <nav>
+                <h1>Elikatla Prudhvi</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/1HYqLhlgq6FpqxRf60pswlJdnbNPbsnSQ/view?usp=sharing">Resume</a></li>
+                    <li><a onclick="switchTheme()" href="">Theme</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <div class="intro">
+                <div class="profile-container"></div>
+                <div class="intro-text">
+                    <h2>Hello, I'm Elikatla Prudhvi</h2>
+                    <p>Web Developer | Creative Problem Solver | Cloud Computing | Innovator Turning Ideas into Impactful Digital Solutions</p>
+                </div>
+            </div>            
+        </section>
+
+        <section class="backgblack" id="about">
+            <h2>About Me</h2>
+            <p>B.Tech in Computer Science Engineering (CGPA: 8.46)</p>
+            <p style="display: inline;">Passionate about <p style=" 
+            display:inline;
+            text-shadow:  0 4px 6px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            ">cloud computing, AI, and IoT</p>, I enjoy solving real-world challenges with technology. With strong decision-making skills and adaptability. </p>
+        </section>
+    </div>
+
+    <div data-aos="zoom-in" data-aos-duration="1000" class="mainly">
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="backgblack">
+                <h3>Portfolio Website</h3>
+                <p>Responsive web application showcasing skills and projects. Built with React.</p>
+            </div>
+            <div class="backgblack">
+                <h3>Sign Language Detection</h3>
+                <p>Real-time gesture recognition system using OpenCV and TensorFlow for translating hand gestures.</p>
+            </div>
+            <div class="backgblack">
+                <h3>Traffic prediction for Traffic Less Routes</h3>
+                <p>Leveraged YOLO and diverse datasets to build a real-time traffic prediction system, optimizing route recommendations for enhanced urban mobility.</p>
+            </div>
+        </section>
+    </div>
+
+    <div data-aos="zoom-in" data-aos-duration="1000" class="mainly">
+        <section class="backgblack" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: Java, JavaScript</li>
+                <li>Web: HTML, CSS, React, Angular, Node.js</li>
+                <li>Creative: Photo & Video Editing</li>
+                <li>Soft Skills: Problem Solving, Critical Thinking</li>
+            </ul>
+        </section>
+        <section class="backgblack" id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:prudhvielikatla@gmail.com">prudhvielikatla@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Prudhvi-9992" target="_blank" rel="noopener">Elikatla_prudhvi</a></p>
+            <p>LinkedIn: <a href="http://www.linkedin.com/in/prudhvi9992" target="_blank" rel="noopener">Elikatla Prudhvi</a></p>
+        </section>
+
+        <footer>
+            <p> All content belongs to Elikatla Prudhvi.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
